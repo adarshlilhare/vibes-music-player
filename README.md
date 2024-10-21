@@ -35,7 +35,6 @@ cd vibes-music-player
 npm install
 
 # Set up environment variables (if applicable)
-# e.g., create a .env file with your MongoDB and Spotify credentials
 
 # Start the server
 npm start
