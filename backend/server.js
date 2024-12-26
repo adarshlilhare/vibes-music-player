@@ -12,9 +12,9 @@ const PORT = 5000;
 const MONGODB_URI = 'mongodb+srv://adarshlilhare5000:Ada3%40rsh3%23@cluster1.n1mp0.mongodb.net/your_db_name?retryWrites=true&w=majority';
 
 // Replace with your actual Spotify credentials
-const CLIENT_ID = '746b7137e32146e08d4c4ce21a7d9290';
-const CLIENT_SECRET = '6fc517a2028e4f859fa54a063fcd7131';
-const REDIRECT_URI = 'http://localhost:5000/callback';
+const CLIENT_ID = 'your key';
+const CLIENT_SECRET = 'your key';
+const REDIRECT_URI = 'your localhost url';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
